@@ -2,7 +2,7 @@ rm(list = ls())
 cat("\014")
 
 #install.packages('remotes')
-Sys.setenv(GITHUB_PAT = "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") # Personal github token
+Sys.setenv(GITHUB_PAT = "token") # Personal github token
 #remotes::install_github("MRCIEU/TwoSampleMR")
 #remotes::install_github("MRCIEU/genetics.binaRies")
 library(TwoSampleMR)
